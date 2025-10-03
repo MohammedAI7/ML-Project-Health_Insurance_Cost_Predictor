@@ -1,10 +1,11 @@
 # codebasics ML course: codebasics.io, all rights reserverd
-
-import streamlit as st
-from prediction_helper import predict
 import os
 os.system("pip install --upgrade pip")
 os.system("pip install --no-cache-dir joblib")
+
+import streamlit as st
+from prediction_helper import predict
+
 
 # Define the page layout
 st.title('Health Insurance Cost Predictor')
