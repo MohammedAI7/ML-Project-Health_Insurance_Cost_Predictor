@@ -1,7 +1,14 @@
 # codebasics ML course: codebasics.io, all rights reserverd
-import os
-os.system("pip install --upgrade pip")
-os.system("pip install --no-cache-dir joblib")
+import subprocess
+
+# Upgrade pip and install joblib first
+subprocess.check_call(["pip", "install", "--upgrade", "pip"])
+subprocess.check_call(["pip", "install", "--no-cache-dir", "joblib"])
+
+# Now it’s safe to import the rest
+import streamlit as st
+from prediction_helper import predict
+
 
 import streamlit as st
 from prediction_helper import predict
