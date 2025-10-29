@@ -3,6 +3,7 @@
 A complete **Machine Learning project** designed to predict **health insurance premium amounts** based on demographic, lifestyle, and medical details.  
 This work combines **EDA, Feature Engineering, Model Training, Hyperparameter Tuning**, and **Deployment** using **Streamlit**.
 
+🔗 **Live App:** [Health Insurance Cost Predictor](https://ml-project-healthinsurancecostpredictor.streamlit.app/)
 ---
 
 ## 🧩 Project Overview  
